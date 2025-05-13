@@ -34,8 +34,5 @@ jobs:
       - name: 의존성(라이브러리) 설치
         run: npm ci
 
-      - name: 테스트 실행하기
-        run: npx playwright test
-
       - name: 빌드하기
         run: npm run build

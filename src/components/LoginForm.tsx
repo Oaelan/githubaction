@@ -42,7 +42,6 @@ export default function LoginForm() {
                 onChange={(e) => setEmail(e.target.value)}
                 inputType="email"
                 rounded
-                disabled={mutation.isPending}
               />
             </div>
             <div className="flex justify-between">
@@ -53,7 +52,6 @@ export default function LoginForm() {
                 inputType="password"
                 rounded
                 variant="success"
-                disabled={mutation.isPending}
               />
             </div>
             <Button
